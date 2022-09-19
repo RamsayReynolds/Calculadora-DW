@@ -1,0 +1,93 @@
+.Titulo{ 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif, ;
+}
+.Centrar{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    background-image: url(https://images.pexels.com/photos/790176/pexels-photo-790176.jpeg?cs=srgb&dl=pexels-joshua-köller-790176.jpg&fm=jpg&h=763&w=1190&fit=crop);
+}
+
+.Centrar2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.ButtonGrid{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    background-color: #333;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 14px 20px;
+    margin: 10px;
+    color: white;
+    background-color: dimgray;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.Input{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    margin: 10px;
+    padding: 14px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: larger;
+}
+
+.Inputs{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Result{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    background-color: #333;
+    margin:auto;
+    margin-top: 25px;
+    padding: 14px 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+.Title{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    text-align: right;
+    background-color: #333;
+    margin:auto;
+    padding: 0px 50px;
+    border-radius: 50px;
+    color: white;
+}

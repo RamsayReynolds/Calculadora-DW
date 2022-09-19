@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simple</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body class="Centrar">
+    <header class="Title"> 
+        <h1> Calculadora </h1>
+    </header>
+
+    <div class="Inputs">
+        <input placeholder="x" type="number" class="Input" id="Input1" required>
+        <input placeholder="y" type="number" class="Input" id="Input2" required>
+    </div>
+
+    <div class="ButtonGrid">
+        <button class="Buttons" onclick="Suma()"> Suma (x+y) </button>
+        <button class="Buttons" onclick="Resta()"> Resta (x-y) </button> 
+        <button class="Buttons" onclick="Multiplicacion()"> Multiplicación (x*y)</button> 
+        <button class="Buttons" onclick="Division()"> División (x/y)</button>     
+    </div>
+
+    <div class="Result" id="resultado">
+        <h5 class="Centrar2"> RSRR</h5>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
